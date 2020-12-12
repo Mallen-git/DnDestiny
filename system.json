@@ -7,7 +7,56 @@
   "scripts": [],
   "esmodules": ["dndestiny.js"],
   "styles": ["dndestiny.css"],
-  "packs": [],
+  "packs": [
+    {
+      "name": "racial-features",
+      "label": "Racial Features",
+      "system": "dndestiny",
+      "module": "dndestiny",
+      "path": "packs/racial-features.db",
+      "entity": "Item"
+    },
+    {
+      "name": "light-abilities",
+      "label": "Light Abilities",
+      "system": "dndestiny",
+      "module": "dndestiny",
+      "path": "packs/light-abilities.db",
+      "entity": "Item"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "system": "dndestiny",
+      "module": "dndestiny",
+      "path": "packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "foundations",
+      "label": "Foundations",
+      "system": "dndestiny",
+      "module": "dndestiny",
+      "path": "packs/foundations.db",
+      "entity": "Item"
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "system": "dndestiny",
+      "module": "dndestiny",
+      "path": "packs/Classes.db",
+      "entity": "Item"
+    },
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "system": "dndestiny",
+      "module": "dndestiny",
+      "path": "packs/class-features.db",
+      "entity": "Item"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -23,6 +72,6 @@
   "minimumCoreVersion": "0.7.6",
   "compatibleCoreVersion": "0.7.8",
   "url": "https://github.com/Mallen-git/DnDestiny",
-  "manifest": "https://raw.githubusercontent.com/Mallen-git/DnDestiny/v1.0.0/system.json",
-  "download": "https://github.com/Mallen-git/DnDestiny/archive/v1.0.0.zip"
+  "manifest": "https://raw.githubusercontent.com/Mallen-git/DnDestiny/Compendium-Addition/system.json",
+  "download": "https://github.com/Mallen-git/DnDestiny/archive/Compendium-Addition.zip"
 }
